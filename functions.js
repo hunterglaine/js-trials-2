@@ -10,7 +10,9 @@ const isHometown = town => town === 'San Francisco';
 
 // 2. getFullName
 
-// Define your function here
+// Give 'firstName' and 'lastName', return a full name.
+
+const getFullName = (firstName, lastName) => `${firstName} ${lastName}`;
 
 
 // 3. calculateTotal

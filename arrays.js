@@ -13,7 +13,15 @@ function printIndices(items) {
 
 // 2. everyOtherItem
 function everyOtherItem(items) {
-  // Replace this with your code
+  // Print an array of every other item in 'items'
+  const result = []
+
+  for (const i in items){
+    if (i % 2 === 0){
+      result.push(items[i]);
+    }
+  }
+  console.log(result);
 }
 
 

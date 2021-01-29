@@ -3,7 +3,9 @@
 
 // 1. isHometown
 
-// Define your function here
+// Given a 'town', return 'true' if 'town' is 'San Francisco'.
+
+const isHometown = town => town === 'San Francisco';
 
 
 // 2. getFullName
